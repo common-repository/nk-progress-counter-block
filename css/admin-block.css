@@ -1,0 +1,16 @@
+/*Progress Bar*/
+.progress_outer{position:relative;}
+.progressbar{width:100%;clear:both;display:inline-block;}
+.progress{float:left;-webkit-transition:width 3s;-o-transition:width 3s;transition:width 3s;}
+.progress > span{display:block;text-align:right;padding-right:15px;font-weight:700;}
+
+/* Circle Counter*/
+.circle_outer svg.prog-radial{height:auto;max-width:240px;padding:0;transform:rotate(-90deg);width:100%;}
+.circle_outer svg.prog-radial circle{fill:rgba(0,0,0,0);stroke-dashoffset:219.91148575129;stroke-width:4;}
+.circle_outer svg.prog-radial circle.complete{stroke-dasharray:219.91148575129;}
+.circle_outer svg.prog-radial text{fill:#fafafa;font-size:16px;text-anchor:middle;}
+
+/*Inspector*/
+.counterSelectorWrapper > div {display: inline-block;width: 50%;text-align: center;border: 1px solid transparent;padding: 10px;cursor: pointer;}
+.counterSelectorWrapper > div.active {border: 1px solid #000;}
+.counterSelectorWrapper > div p {padding: 0;margin: 0;}
